@@ -323,5 +323,6 @@ else if(gift>=200000 && gift<1000000){
 else{    tax=((gift-1000000)*0.17)+142100;
 }
         System.out.println("Tax: ");
+// hi
     }
 }
