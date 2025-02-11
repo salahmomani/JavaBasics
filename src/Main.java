@@ -297,7 +297,7 @@ public class Main {
 
 
         System.out.println("Value of the gift?");
-    double tax;
+    double tax = 0;
         int gift=in.nextInt();
 if(gift<5000){
     System.out.println("No tax!");
@@ -322,7 +322,6 @@ else if(gift>=200000 && gift<1000000){
 }
 else{    tax=((gift-1000000)*0.17)+142100;
 }
-        System.out.println("Tax: ");
-// hi
+        System.out.println("Tax: "+tax);
     }
 }
