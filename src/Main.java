@@ -139,27 +139,28 @@ public class Main {
 //        System.out.println(first+" * "+second +" = "+(first*second) );
 //        System.out.println(first+" / "+second +" = "+(first/second) );
 
-
+/// ////////////////////////Speeding Ticket//////////////////
 //        System.out.println("Give speed:");
 //        int speed=in.nextInt();
 //        if(speed>120){
 //            System.out.println("Speeding ticket!");
 //        }
-
+/// /////////////////////////////////Orwell//////////////////////////////
 //        System.out.println("Give number:");
 //        int year=in.nextInt();
 //        if(year==1984){
 //        System.out.println("Orwell");
 
 
-
+/// //////////Ancient///////////////
 //        System.out.println("Give number:");
 //        int year=in.nextInt();
 //        if(year<2015){
 //            System.out.println("Ancient history!");
 
 
-//
+ ////////////////////////////////////////Positivity////////////////
+
 //        System.out.println("Give number:");
 //        int PNnum=in.nextInt();
 //        if(PNnum<0){
@@ -173,7 +174,7 @@ public class Main {
 //        }
 
 
-//
+/// /////////////////////////////////Adulthood/////////////////////////////
 //        System.out.println("How old are you?");
 //        int old=in.nextInt();
 //        if(old<18){
@@ -183,7 +184,7 @@ public class Main {
 //            System.out.println("You are an adult" );
 //        }
 
-//
+/// //////////////////////////////Larger Than or Equal To////////////////////////////
 //        System.out.println("Give the first number:");
 //        int first =in.nextInt();
 //        System.out.println("Give the second number:");
@@ -201,7 +202,7 @@ public class Main {
 
 
 
-//
+/// /////////////////////////Grades and Points/////////////////////////
 //        System.out.println("Give points [0-100]:");
 //
 //        int grade= in.nextInt();
@@ -236,7 +237,7 @@ public class Main {
 //        }
 
 
-//
+/// //////////////////////////////Odd or even/////////////////////
 //        System.out.println("Give the number:");
 //        int OEnum=in.nextInt();
 //        if(OEnum%2==0) {
@@ -245,7 +246,7 @@ public class Main {
 //        else {
 //            System.out.println("Number " + OEnum + " is odd");
 //        }
-
+/// ////////////////////////////////Password/////////////////////////////
 //        System.out.println("Password?");
 //        String pass=in.nextLine();
 //        if(pass.equals("Caput Draconis"))
@@ -257,7 +258,7 @@ public class Main {
 //            System.out.println("Off with you!");
 //        }
 
-
+/// //////////////////////////////Same///////////////////////////
 //        System.out.println("Enter the first string:");
 //        String s1=in.nextLine();
 //
@@ -269,6 +270,7 @@ public class Main {
 //        else{
 //            System.out.println("Different");
 //        }
+/////////////////////////////Checking the age///////////////////
 
 //        System.out.print("How old are you?");
 //        int age=in.nextInt();
@@ -278,7 +280,7 @@ public class Main {
 //        else{
 //            System.out.println("impossible");
 //        }
-
+/// ///////////////////////////////////////////Leap year///////////////////////////
 //        System.out.print("Give a year:");
 //        int year=in.nextInt();
 //        if(year%4==0 && year%100==0){
@@ -295,34 +297,37 @@ public class Main {
 //            System.out.println("The year is  not a leap year.");
 //        }
 
-
-        System.out.println("Value of the gift?");
-    double tax = 0;
-        int gift=in.nextInt();
-if(gift<5000){
-    System.out.println("No tax!");
-}
-else if(gift>=5000 && gift<25000)
-{
-    tax=((gift-5000)*0.08)+100;
-}
-else if(gift>=25000 && gift<55000){
-
-    tax=((gift-25000)*0.1)+1700;
-}
-
-else if(gift>=55000 && gift<200000){
-
-    tax=((gift-55000)*0.12)+4700;
-}
-
-else if(gift>=200000 && gift<1000000){
-
-    tax=((gift-200000)*0.15)+22100;
-}
-else{    tax=((gift-1000000)*0.17)+142100;
-}
-        System.out.println("Tax: "+tax);
+/// /////////////////////////////////Gift tax//////////////////////////
+//        System.out.println("Value of the gift?");
+//    double tax = 0;
+//        int gift=in.nextInt();
+//if(gift<5000){
+//    System.out.println("No tax!");
+//}
+//else if(gift>=5000 && gift<25000)
+//{
+//    tax=((gift-5000)*0.08)+100;
+//}
+//else if(gift>=25000 && gift<55000){
+//
+//    tax=((gift-25000)*0.1)+1700;
+//}
+//
+//else if(gift>=55000 && gift<200000){
+//
+//    tax=((gift-55000)*0.12)+4700;
+//}
+//
+//else if(gift>=200000 && gift<1000000){
+//
+//    tax=((gift-200000)*0.15)+22100;
+//}
+//else{    tax=((gift-1000000)*0.17)+142100;
+//}
+//        System.out.println("Tax: "+tax);
 /// ///////////////////////////
+
+
+
     }
 }
