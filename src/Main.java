@@ -5,23 +5,29 @@ public class Main {
         Scanner in=new Scanner(System.in);
 //
 //        System.out.println("Hello, World!");
+        /// //////////////Ada Lovelace////////////////
 //        System.out.println("Ada Lovelace");
+        /// //////////////////////Once Upon a Time/////////////////////////Dinosaur/////////
 //        System.out.println("Once upon a time\nthere was\na program\n");
+        /// /////////////////////Message////////////////////
 //        System.out.println("Write a message:");
 //        String test1=in.nextLine();
 //        System.out.println(test1);
 //        System.out.println("Write a message:");
 //        String test2=in.nextLine();
 //        System.out.println(test2);
+        /// /////////Hi Ada Lovelace!///////////////////
 //        String name = "Ada Lovelace";
 //        System.out.println(name);
 //        System.out.println("Write a message: ");
 //        String test3=in.nextLine();
 //        System.out.println(test3);
 //        System.out.println(test3);
+        /// //////////////////////Greeting//////////////////////
 //        System.out.println("What's your name?");
 //        String test4=in.nextLine();
 //        System.out.println("Hi"+test4);
+        /// ///////////////////////Conversation////////////////
 //        System.out.println("Greetings! How are you doing?");
 //        String test5=in.nextLine();
 //        System.out.println(test5);
@@ -29,6 +35,7 @@ public class Main {
 //        String test6=in.nextLine();
 //        System.out.println(test6);
 //        System.out.println("Thanks for sharing!\n");
+        /// //////////////////////////Story////////////////////////
 //        System.out.println("I will tell you a story, but I need some information first.\n" +"What is the main character called?");
 //        String bob=in.nextLine();
 //        System.out.println("What is their job?");
@@ -37,6 +44,8 @@ public class Main {
 //                "Once upon a time there was "+bob+", who was "+builder+".\n" +
 //                "On the way to work, "+bob+"reflected on life.\n" +
 //                "Perhaps "+bob+ "will not be "+builder+" forever.");
+
+        /// ////////////////////////////Various Variables///////////////////
 //        int chic=3;
 //        double bac=5.5;
 //       String no="None!";
@@ -44,18 +53,19 @@ public class Main {
 //        System.out.println("Bacon(Kg)\n"+bac);
 //        System.out.println("Tractor\n"+no);
 //        System.out.println("And finally, a summary:\n"+chic+"\n"+bac+"\n"+no);
-//
+/// ////////////////Integer Input/////////////////////
 //        System.out.println("Give a number:");
 //        int num1= in.nextInt();
 //        System.out.println("You gave the number "+num1);
-//
+/// /////////////////////////Double Input//////////////////
 //        System.out.println("Give a number:");
 //        double num2=in.nextDouble();
-////        System.out.println("You gave the number "+num2);
+//       System.out.println("You gave the number "+num2);
+        /////////////////////////Boolean Input//////////////////
 //        System.out.println("Write something:");
 //        boolean value = Boolean.valueOf(in.nextLine());
 //        System.out.println("True or false? "+value);
-//
+/// ////////////////////Different Types of Input///////////////////////
 //        System.out.println("Give a string:");
 //        String bye=in.nextLine();
 //        System.out.println("Give a integer:");
@@ -67,18 +77,18 @@ public class Main {
 //        System.out.println("You gave the string " + bye+"\n"+"You gave the integer "+num7+"\n" +
 //                "You gave the double "+dou2+"\n" +
 //                "You gave the boolean "+bol2);
-
+/// ////////////////////////////////Seconds in a day/////////////////////////////
 //        System.out.println("How many days would you like to convert to seconds?");
 //        int second =in.nextInt();
 //        System.out.println(second*24*60*60);
-
+/// /////////////////////////////Sum of two numbers//////////////////
 //        System.out.println("Give the first number:");
 //        int first =in.nextInt();
 //        System.out.println("Give the second number:");
 //        int second =in.nextInt();
 //        int sum=first+second;
 //        System.out.println("The sum of the numbers is "+sum);
-//
+/// ///////////////////Sum of three numbers////////////////////////////
 //        System.out.println("Give the first number:");
 //        int first =in.nextInt();
 //        System.out.println("Give the second number:");
@@ -88,7 +98,7 @@ public class Main {
 //        int sum=first+second+third;
 //        System.out.println("The sum of the numbers is "+sum);
 
-
+/// ///////////////////////////////Addition formula//////////////////////
 //        System.out.println("Give the first number:");
 //        int first =in.nextInt();
 //        System.out.println("Give the second number:");
@@ -97,7 +107,7 @@ public class Main {
 //        System.out.println(first+" 5+ "+second+" ="+sum);
 
 
-
+/// ////////////////////////////Multiplication formula/////////////////
 //        System.out.println("Give the first number:");
 //        int first =in.nextInt();
 //        System.out.println("Give the second number:");
@@ -106,6 +116,7 @@ public class Main {
 //        System.out.println(first+" + "+second+" ="+mul);
 
 
+/// /////////////////////////Average of two numbers////////////
 
 //        System.out.println("Give the first number:");
 //        int first =in.nextInt();
@@ -116,7 +127,7 @@ public class Main {
 
 
 
-
+/// /////////////////////////Average of three numbers////////////
 //        System.out.println("Give the first number:");
 //        int first =in.nextInt();
 //        System.out.println("Give the second number:");
@@ -124,12 +135,12 @@ public class Main {
 //        System.out.println("Give the third number:");
 //        int third =in.nextInt();
 //        double avg=1.0*(first+second+third)/3;
-//        System.out.println("The sum of the numbers is "+avg);
+//        System.out.println("The average of the numbers is "+avg);
 //
 //
 
 
-
+/// //////////////////////////////////Simple calculator///////////////////////
 //        System.out.println("Give the first number:");
 //        int first =in.nextInt();
 //        System.out.println("Give the second number:");
