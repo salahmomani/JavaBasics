@@ -227,6 +227,107 @@ public class part3 {
 //            }
 //        avg=1.0*sum/count;
 //        System.out.println(avg);
+/// ///////////////////On the list?/////////
+//
+//        ArrayList<String> namelist = new ArrayList<>();
+//        String name,search;
+//        boolean list=false;
+//        while (true)
+//        {
+//            name=in.nextLine();
+//            if(name.equals("")){break;}
+//            namelist.add(name);
+//        }
+//        System.out.print("Search for?");
+//        search=in.nextLine();
+//        for(int i=0;i<namelist.size();i++)
+//        {
+//
+//            if(search.equals(namelist.get(i)))
+//            {
+//                System.out.println(search+" was found");
+//                list=true;
+//                break;
+//            }
+//
+//        }
+//        if(list==false) {
+//            System.out.println(search+" was not found");
+//        }
 
+/// ////////////////Print in range//////////////////
+//        ArrayList<Integer> numtest=new ArrayList<>();
+//
+//        numtest.add(3);
+//        numtest.add(2);
+//        numtest.add(6);
+//        numtest.add(-1);
+//        numtest.add(5);
+//        numtest.add(1);
+//
+//        System.out.println("The numbers in the range [0, 5]");
+//        printNumbersInRange(numtest, 3, 10);
+///// ////////////sum/////////
+//        ArrayList<Integer> numbers = new ArrayList<>();
+//        numbers.add(3);
+//        numbers.add(2);
+//        numbers.add(6);
+//        numbers.add(-1);
+//        System.out.println(sum(numbers));
+//
+//        numbers.add(5);
+//        numbers.add(1);
+//        System.out.println(sum(numbers));
+
+
+/// //////////Remove last///////////////
+//        ArrayList<String> strings = new ArrayList<>();
+//
+//        strings.add("First");
+//        strings.add("Second");
+//        strings.add("Third");
+//
+//        System.out.println(strings);
+//
+//        removeLast(strings);
+//        removeLast(strings);
+//
+//        System.out.print(strings);
+
+
+
+
+    }
+    public static void printNumbersInRange(ArrayList<Integer> numbers, int lowerLimit, int upperLimit)
+    {
+        ArrayList<Integer> num=new ArrayList<>();
+        for (int i=0;i<numbers.size();i++)
+        {
+         if(numbers.get(i)>=lowerLimit && numbers.get(i)<=upperLimit)
+         {
+             num.add(numbers.get(i));
+         }
+        }
+        System.out.println(num);
+    }
+    public static int sum(ArrayList<Integer> numbers)
+    {
+        int sum=0;
+        for (int i=0;i<numbers.size();i++)
+        {
+            sum+=numbers.get(i);
+        }
+return sum;
+    }
+
+    public static void removeLast(ArrayList<String> strings)
+    {
+        for (int i=0;i<strings.size();i++)
+        {
+            if(i==strings.size()-1)
+            {
+                strings.remove(strings.size()-1);
+            }
+        }
     }
 }
